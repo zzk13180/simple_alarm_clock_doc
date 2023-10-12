@@ -1,5 +1,5 @@
 {
-  "name": "simple_alarm_clock_astro_doc",
+  "name": "simple_alarm_clock_doc",
   "type": "module",
   "version": "0.0.1",
   "private": true,
@@ -11,8 +11,6 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^1.5.0",
-    "vue": "^3.2.41",
-    "@astrojs/vue": "^1.1.0"
+    "astro": "^3.3.0"
   }
 }

@@ -1,7 +1,4 @@
 ---
-// Component Imports
-import Counter from "../components/Counter.vue";
-
 // Import some markdown. Dynamic import() is also supported!
 import { Content, rawContent } from "../md/test.md";
 ---
@@ -15,12 +12,10 @@ import { Content, rawContent } from "../md/test.md";
   </head>
   <body>
     <main>
-      <Counter client:visible>
-        <div>
-          {rawContent.toString()}
-          <Content />
-        </div>
-      </Counter>
+      <div>
+        <Content />
+        {rawContent.toString()}
+      </div>
     </main>
   </body>
 </html>
